@@ -8,11 +8,15 @@
 
 (my_kivy_project) C:\Users\Sao Kyaw Zeya\my_kivy_project\Scripts>)
 - I created hello_world.py and when running the file I had to use
-  ```
+
+```
   python hello_world.py 
 ```
+
 - I am interested in outputting part and the codes for that is as follw.
 - I need to modify the printer method so that the app display the python code output.
+
+
 ```
 from kivy.app import App
 from kivy.lang import Builder
@@ -35,8 +39,6 @@ FloatLayout:
         on_release:
             app.do_print()
             self.text = 'stop' if app.is_printing else 'start'
-'''
-
 class MainApp(App):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
@@ -63,6 +65,5 @@ class MainApp(App):
             self.is_printing = False
             self.print_thread.join()
             self.print_thread = None
-
 MainApp().run()
 ```
