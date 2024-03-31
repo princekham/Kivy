@@ -5,6 +5,11 @@
 - I used my Window Command with Python3 installed
 - In windows, I needed to run activate.bat file to activate the project space, when I ran activate.bat, the following showed up.
 - (C:\Users\Sao Kyaw Zeya\my_kivy_project\Scripts>activate.bat
+- I need to activate to run the project by going to C:\Users\Sao Kyaw Zeya\my_kivy_project\Scripts>
+- And run activate.bat
+- My Kivy files are located under C:\Users\Sao Kyaw Zeya\Documents\My Kivy Projects
+- 
+  
 
 (my_kivy_project) C:\Users\Sao Kyaw Zeya\my_kivy_project\Scripts>)
 - I created hello_world.py and when running the file I had to use
